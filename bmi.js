@@ -59,6 +59,8 @@ function klikk()
         document.getElementById('haromelhizas').style.backgroundColor ="orange";
     }
 
+    document.getElementById('ideal').innerHTML = "AZ IDEÁLIS TESTTÖMEGE: <i>x kg</i>"
+    document.getElementById('idealisertekek').innerHTML = "x kg - x kg"
 
 }
 
