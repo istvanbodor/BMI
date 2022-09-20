@@ -1,4 +1,4 @@
-# [Név]
+# [Bodor István]
 
 ## Hogyan kezdj neki?
 
