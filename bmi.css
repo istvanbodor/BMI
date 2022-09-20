@@ -23,7 +23,7 @@
     background-color: white;
     height: 30px;
     width: 100px;
-    color: orange;
+    color: rgb(255, 145, 0);
     font-weight: bold;
     
     
@@ -44,6 +44,45 @@ padding-left: 150px;
 .elsooszlop{
 
 padding-right: 300px;
+
+
+}
+
+#masodikDiv{
+    margin: auto;
+    width: 50%;
+    padding-top: 40px;
+
+}
+h2{
+    color: rgb(255, 145, 0);
+    text-transform: capitalize;
+}
+#masodiktabla{
+    margin:auto;
+    width: 80%;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+.elso{
+    text-align: left;
+    width: 150px;
+    text-align: center;
+    
+}
+.sorok{
+    border-bottom: 1px solid;
+    
+}
+.elsox{
+    padding-top: 20px;
+
+
+}
+#harmadikDiv{
+    padding-top: 50px;
+    margin: auto;
+    width: 50%;
 
 
 }
