@@ -4,9 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+    <title>BMI</title>
 </head>
 <body>
-    WORKING....
+   
+    <div id="elsoDiv">
+
+        <table>
+        <tr>
+            <td class="elsooszlop">
+            <label class="textek" for="magassag">Írja be cm-ben számított testmagasságát (cipő nélkül mérve):</label>
+                
+            </td>
+            <td><input class="inputok" type="text" id="magassag" name="magassag"> </td>
+            <td>cm</td>
+
+
+        </tr>
+        <tr>
+
+            <td class="elsooszlop"><label class="textek" for="suly">Írja be kg-ban számított testsúlyát (cipő nélkül mérve):</label></td>
+            <td><input class="inputok"  type="text" id="suly" name="suly"></td>
+            <td>kg</td>
+
+
+
+        </tr>
+
+        <tr>
+
+            <td><button  id="szamitogomb">Számítás</button></td>
+
+        </tr>
+        
+        
+        
+        
+        
+    </table>
+    </div>
+
+
+    <div id="masodikDiv">
+    <h2 id="ertek">AZ ÖN BMI ÉRTÉKE: </h2>
+        <table id="masodiktabla">
+            <tr class="sorok" id="sovany">
+                <td class="elsox elso"><b>18,5 vagy kevesebb</b></td>
+                <td class="elsox">SOVÁNY</td>
+
+            </tr>
+            <tr class="sorok" id="normal">
+                <td class="elsox elso" ><b>18,5 - 24,9</b></td>
+                <td class="elsox">Normál</td>
+
+            </tr>
+            <tr class="sorok" id="tulsuly">
+                <td class="elsox elso"><b>25-29,9</b></td>
+                <td class="elsox">TÚLSÚLY</td>
+
+            </tr>
+            <tr class="sorok" id="egyelhizas">
+                <td class="elsox elso" ><b>30-34,9</b></td>
+                <td class="elsox">I. FOKÚ ELHÍZÁS</td>
+
+            </tr >
+            <tr class="sorok" id="ketelhizas">
+                <td class="elsox elso" ><b>35-39,9</b></td>
+                <td class="elsox">II. FOKÚ ELHÍZÁS</td>
+
+            </tr>
+            <tr class="sorok" id="haromelhizas">
+                <td class="elsox elso" ><b>40 vagy több</b></td>
+                <td class="elsox">III. FOKÚ ELHÍZÁS</td>
+
+            </tr>
+
+
+
+        </table>
+
+
+    </div>
+        
+
+
+
+    <div id="harmadikDiv">
+
+        <h2>AZ IDEÁLIS TESTTÖMEGE: </h2>
+
+
+        <table>
+            
+            <tr>
+            <td><p id="idealisertekek"></p></td>
+            <td><p>Kívánatos szélső értékek</p></td>    
+            
+            
+            
+            </tr>
+
+
+
+        </table>
+
+
+
+
+
+    </div>
+
+
+    <script src="bmi.js"></script>
+ 
 </body>
 </html>
